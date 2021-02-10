@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+
+<body>
+
+	<header>
+		<!-- MENU -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="#sobre-nos">Sobre nós</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#projetos">Nossos projetos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#depoimentos">Depoimentos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#contato">Contato</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- BANNER IMAGEM -->
+		<div class="card banner-principal">
+			<div class="card-body">
+				<h1 class="card-title">TopCasaFina Arquitetura</h1>
+				<p class="card-text">Projetando a casa dos sonhos desde 2000 A.C</p>
+				<a href="#" class="btn btn-primary btn-lg">Contate-nos agora</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<!-- SOBRE NOS -->
+		<section id="sobre-nos" class="container">
+			<div class="row">
+
+				<h2 class="titulo-secundario">Sobre Nós</h2>
+
+				<!-- IMAGEM SOBRE NOS -->
+				<img class="img-fluid col-lg-6" src="assets/img/empresa.jpg" alt="">
+
+				<!-- ACCORDION SOBRE NOS -->
+				<div class="accordion col-lg-6 mt-3" id="accordionExample">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button accordion-sobre" type="button" data-bs-toggle="collapse"
+								data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+								Desde 1935
+							</button>
+						</h2>
+						<div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+							data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Desde 1935 trazendo casas, mansões e prédios lindos para o mundo.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingTwo">
+							<button class="accordion-button accordion-sobre" type="button" data-bs-toggle="collapse"
+								data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+								Um mundo mais bonito
+							</button>
+						</h2>
+						<div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+							data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.
+							</div>
+						</div>
+					</div>
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingThree">
+							<button class="accordion-button accordion-sobre" type="button" data-bs-toggle="collapse"
+								data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+								Mais de 300 prêmios
+							</button>
+						</h2>
+						<div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+							data-bs-parent="#accordionExample">
+							<div class="accordion-body">
+								Mais de 300 prêmios em design e conforto e 5 milhões de clientes satisfeitos em todo o
+								mundo.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- BANNER PREMIOS SOBRE NOS -->
+		<div class="container-fluid premios">
+			<h3>Mais de 300 prêmios em design e em conforto.</h3>
+			<p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
+		</div>
+
+		<!-- CARDS PROJETOS -->
+		<section id="projetos" class="container">
+			<h2 class="titulo-secundario">Nossos Projetos</h2>
+
+			<div class="row mx-auto g-3">
+
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<figure class="card p-2 h-100">
+						<img src="assets/img/projetos/casa-castelo.png" class="card-img-top" alt="...">
+						<figcaption class="card-body">
+							<h3 class="card-title">Casa Castelo</h3>
+							<p class="card-text">
+								A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.
+							</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<figure class="card p-2 h-100">
+						<img src="assets/img/projetos/casa-lago.png" class="card-img-top" alt="...">
+						<figcaption class="card-body">
+							<h3 class="card-title">Casa do Lago</h3>
+							<p class="card-text">
+								A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidente da época.
+							</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<figure class="card p-2 h-100">
+						<img src="assets/img/projetos/mercado-marapira.png" class="card-img-top" alt="...">
+						<figcaption class="card-body">
+							<h3 class="card-title">Mercado Marapira</h3>
+							<p class="card-text">
+								O Mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.
+							</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<figure class="card p-2 h-100">
+						<img src="assets/img/projetos/palacio-dionisio.png" class="card-img-top" alt="...">
+						<figcaption class="card-body">
+							<h3 class="card-title">Palácio Dionísio</h3>
+							<p class="card-text">
+								O Palácio Dionísio foi eleito pela revista 'Grandes palácios' como o palácio mais lindo
+								do
+								mundo.
+							</p>
+						</figcaption>
+					</figure>
+				</div>
+
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<figure class="card p-2 h-100">
+						<img src="assets/img/projetos/residencia-ludi.png" class="card-img-top" alt="...">
+						<figcaption class="card-body">
+							<h3 class="card-title">Residencia Ludi</h3>
+							<p class="card-text">
+								A residência Ludi foi projetada para ser a mais bela casa de São Paulo pela revista
+								Housing.
+							</p>
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</section>
+
+		<!-- CAROUSSEL DEPOIMENTOS -->
+		<section class="container" id="depoimentos">
+			<h2 class="titulo-depoimentos">Depoimentos de Clientes</h2>
+
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<figure class="carousel-item active">
+						<img src="assets/img/depoimentos/projetos0.png" class="d-block w-100" alt="...">
+						<figcaption class="carousel-caption d-none d-md-block">
+							<h3>Yuri Padilha</h3>
+							<p class="fs-5">Gostei muito e achei rápido o serviço.</p>
+						</figcaption>
+					</figure>
+					<figure class="carousel-item">
+						<img src="assets/img/depoimentos/projetos1.png" class="d-block w-100" alt="...">
+						<figcaption class="carousel-caption d-none d-md-block">
+							<h3>Fernando Stafaneni</h3>
+							<p class="fs-5">Excelente trabalho.</p>
+						</figcaption>
+					</figure>
+					<figure class="carousel-item">
+						<img src="assets/img/depoimentos/projetos2.png" class="d-block w-100" alt="...">
+						<figcaption class="carousel-caption d-none d-md-block">
+							<h3>Caio Sauzas</h3>
+							<p class="fs-5">Gostei, competência em primeiro lugar.</p>
+						</figcaption>
+					</figure>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				</a>
+			</div>
+		</section>
+
+		<div class="container">
+			<div class="row">
+
+				<!-- VIDEO -->
+				<section id="video" class="col-lg-6">
+					<h2 class="titulo-secundario">Video institucional</h2>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe width="100%" height="340" src="https://www.youtube.com/embed/i_3Pv1AygeI"
+							frameborder="0" allowfullscreen></iframe>
+					</div>
+				</section>
+
+				<!-- CONTATO -->
+				<section id="contato" class="col-lg-6">
+					<h2 class="titulo-secundario">Contato</h2>
+
+					<form>
+						<div class="mb-3">
+							<label for="contato-nome" class="form-label">Nome</label>
+							<input type="text" class="form-control" id="contato-nome" placeholder="Seu nome">
+						</div>
+
+						<div class="mb-3">
+							<label for="contato-email" class="form-label">E-mail</label>
+							<input type="email" class="form-control" id="contato-email" placeholder="Seu e-mail">
+						</div>
+
+						<div class="form-check col-4">
+							<input class="form-check-input" type="radio" name="tipo-pessoa" id="contato-pessoa-fisica">
+							<label class="form-check-label" for="contato-pessoa-fisica">
+								Pessoa física
+							</label>
+						</div>
+						<div class="form-check">
+							<input class="form-check-input" type="radio" name="tipo-pessoa"
+								id="contato-pessoa-juridica">
+							<label class="form-check-label" for="contato-pessoa-juridica">
+								Pessoa jurídica
+							</label>
+						</div>
+
+						<select class="form-select my-4" aria-label="Tipo de Solicitação">
+							<option value="" disabled selected>Selecione...</option>
+							<option value="casa">Casa</option>
+							<option value="apartamento">Apartamento</option>
+							<option value="mansao">Mansão</option>
+						</select>
+
+						<p class="text-center"><button type="submit" class="btn btn-primary btn-lg w-50">Enviar</button>
+						</p>
+
+					</form>
+				</section>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<!-- ENDERECO -->
+		<address>
+			<strong class="fs-5">TopCasaFina Arquitetura</strong><br>
+			Rua Vergueiro, 3185, Vila Mariana<br>
+			São Paulo, SP<br>
+			Tel: (11) 5571-2751 ou 5083-3884
+		</address>
+		<address>
+			E-mail: contato.topcasafina@alura.com.br
+		</address>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+		integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+		integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+		crossorigin="anonymous"></script>
+	<script src="assets/js/navbar-animation-fix.js"></script>
+
+</body>
+
+</html>

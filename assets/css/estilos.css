@@ -1,0 +1,64 @@
+html, body, header {
+	height: 100%;
+}
+
+header {
+	background-image: url(../img/castelo.jpg);
+	background-size: cover;
+	background-position: top center;
+	height: 100%;
+}
+
+.banner-principal {
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, .6);
+	color: #FFF;
+	width: 80%;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: .3s;
+}
+
+.titulo-secundario {
+	margin: 2rem auto;
+	text-align: center;
+	font-size: 2rem;
+	color: #999;
+}
+
+.accordion-sobre {
+	background-color: #EEE!important;
+	color: #000!important;
+}
+
+.accordion-sobre::after {
+	background-image: none!important;
+}
+
+.premios {
+	background-color: #DDD;
+	text-align: center;
+	margin: 1rem 0;
+	padding: 2rem;
+	font-size: 1.2rem;
+}
+
+.titulo-depoimentos {
+	margin-top: 2rem;
+	margin-bottom: 0;
+	padding: 2rem;
+	text-align: center;
+	background-color: #0275D8;
+	color: #FFF;
+}
+
+footer {
+	background-color: #444;
+	color: #AAA;
+	padding: 2rem;
+	margin-top: 2rem;
+	text-align: center;
+}
