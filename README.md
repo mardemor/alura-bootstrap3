@@ -12,4 +12,4 @@
 <li>Utilize a documentação do bootstrap de maneira eficaz e eficiente.</li>
 </ul>
 <p>Obs.: Código adaptado para Bootstrap 5.</p>
-<p>Acesse o <a href="https://mardemor.github.io/alura-bootstrap3" target="_blank">site</a> do projeto.<p>
+<p>Acesse o <a href="https://mardemor.github.io/alura-bootstrap3/" target="_blank">site</a> do projeto.<p>
